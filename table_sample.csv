@@ -1,0 +1,9 @@
+Replace_table,Table_name,,,,,,,
+yes,sample_table,,,,,,,
+Field_name,Type,Null,Key,Default,Unique,Auto_increment,Foreign_table,Foreign_column
+id,int,,yes,,,yes,,
+dates,date,no,,,,,,
+item,int,no,,,,,item_tbl,"item_col1,item_col2"
+remarks,varchar(64),,,,,,remarks_tbl,remarks_col
+receives,int,,,0,,,,
+pays,int,,,0,,,,
